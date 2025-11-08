@@ -6,8 +6,8 @@ logo_path = "streamlit/FHIRFly_logo.png"
 st.html("""
   <style>
     [alt=Logo] {
-      height: 5rem;
-      padding-top: 2rem;
+      padding-top: 1rem;
+      height: 4rem;
     }
   </style>
         """)
