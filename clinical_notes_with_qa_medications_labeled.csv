@@ -1,0 +1,479 @@
+Unnamed: 0,patient_id,note,question,answer,task,note_title,diagnosis,extracted_json
+30,32,"Hospital Course:
+The 48-year-old male with a past medical history of type 2 diabetes mellitus and end-stage renal disease on hemodialysis was admitted to the hospital with shortness of breath and diagnosed with COVID-19. The patient had received two doses of the COVID vaccine. The patient was quickly weaned to room air, with only supportive care provided for COVID-19. 
+On Day 1, the patient was diagnosed with a right foot wound infection and started on intravenous antibiotics. 
+On Day 2, the patient was found to be hypoxic and started on dexamethasone and remdesivir. 
+On Day 4, the patient required high-flow oxygen therapy until Day 12, when the patient was weaned down to room air. 
+On Day 17, the patient required supplemental oxygen again and was transferred to the ICU on Day 18, where he was intubated on Day 19 due to worsening respiratory status. The patient was restarted on dexamethasone and broad-spectrum antibiotics.
+ 
+Hospital Course Details:
+- Initial presentation: Shortness of breath, hypoxia, saturating 79%
+- COVID-19 diagnosis: Positive SARS-CoV-2 RNA nasopharyngeal swab
+- COVID-19 treatment: Supportive care, dexamethasone and remdesivir
+- Foot wound infection: Diagnosed on Day 1, treated with intravenous antibiotics
+- Oxygen therapy: Required high-flow nasal cannula from Day 4-12, then re-escalated to 15 L on a nonrebreather mask on Day 17
+- ICU transfer: On Day 18, due to respiratory deterioration
+- Intubation: On Day 19 due to worsening respiratory status
+- Dexamethasone and broad-spectrum antibiotics were restarted in the ICU.",What medications were administered to treat the foot wound infection and COVID-19 in the 48-year-old male patient from the given discharge summary?,"The foot wound infection was treated with intravenous antibiotics, but the specific name of the antibiotic was not mentioned in the discharge summary. For COVID-19, the patient received dexamethasone and remdesivir.",Question Answering,hospital course, positive sars-cov-2 rna nasopharyngeal swab,"{
+  ""conditions"": [
+    {
+      ""text"": ""type 2 diabetes mellitus"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""end-stage renal disease"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""COVID-19"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""right foot wound infection"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""hypoxia"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""respiratory failure"",
+      ""status"": ""active""
+    }
+  ],
+  ""medications"": [
+    {
+      ""text"": ""dexamethasone"",
+      ""dosage"": ""not specified""
+    },
+    {
+      ""text"": ""remdesivir"",
+      ""dosage"": ""not specified""
+    },
+    {
+      ""text"": ""intravenous antibiotics"",
+      ""dosage"": ""not specified""
+    },
+    {
+      ""text"": ""broad-spectrum antibiotics"",
+      ""dosage"": ""not specified""
+    }
+  ]
+}"
+312,327,"Hospital Course Summary:
+
+Admission Date: 
+
+Diagnosis: Grade 4 astrocytoma with molecular studies indicating an IDH-mutated, ATRX mutated, and MGMT promoter methylated phenotype with hypermutation.
+
+Hospital Course:
+
+The patient, a 28-year-old male with a history of a grade 3 astrocytoma, presented to the emergency department with a general tonic-clonic seizure. Upon admission, he was found to have disease progression with extension into the splenium and anterior-inferior extension into the left thalamus and basal ganglia. Despite changes to his antiepileptic medication, he had seizure recurrence a few weeks following admission.
+
+A repeat maximal safe resection with GammaTile placement was performed due to presuming that the area of tumor recurrence received a definitive dose in the past. The patient developed right upper and lower extremity weakness/spasticity with right foot drop and mild right face weakness as a result of the surgery. 
+
+After the progression of disease in the splenium and left thalamus/basal ganglia was observed, a treatment plan was made to take the progressive regions of disease outside the irradiated GammaTile volume to 35 Gy in 10 fractions. 
+
+Due to the hypermutation phenotype of his tumor, the patient was started on CCNU and completed his EBRT with no issue or progression of his neurological symptoms. He was last seen in follow-up by our team three months after his most recent EBRT, at which point he reported significant improvement in the right leg tremors/spasms and improved headache. He demonstrated decreased right foot drop but continued to have word-finding difficulties and short-term memory deficits.
+
+Discharge Diagnosis: Grade 4 astrocytoma with molecular studies indicating an IDH-mutated, ATRX mutated, and MGMT promoter methylated phenotype with hypermutation. 
+
+Discharge Plan: The patient is scheduled to complete six cycles of CCNU with alternative systemic therapy thereafter upon disease progression.","What was the treatment plan for the patient with a grade 4 astrocytoma, and what medication was administered due to the hypermutation phenotype of their tumor?","The patient received CCNU medication due to the hypermutation phenotype of their grade 4 astrocytoma, and completed six cycles of CCNU with planned alternative systemic therapy upon disease progression.",Question Answering,hospital course summary," grade 4 astrocytoma with molecular studies indicating an idh-mutated, atrx mutated, and mgmt promoter methylated phenotype with hypermutation.","{
+  ""conditions"": [
+    {
+      ""text"": ""Grade 4 astrocytoma"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""Grade 3 astrocytoma"",
+      ""status"": ""resolved""
+    },
+    {
+      ""text"": ""seizures"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""right upper and lower extremity weakness/spasticity"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""right foot drop"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""right face weakness"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""word-finding difficulties"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""short-term memory deficits"",
+      ""status"": ""active""
+    }
+  ],
+  ""medications"": [
+    {
+      ""text"": ""CCNU"",
+      ""dosage"": ""six cycles""
+    },
+    {
+      ""text"": ""antiepileptic medication"",
+      ""dosage"": ""not specified""
+    }
+  ]
+}"
+2078,2194,"Discharge Summary:
+
+Patient Name: [REDACTED]
+Date of Admission: [REDACTED]
+Date of Discharge: [REDACTED]
+
+Admitting Diagnosis: Vesiculobullous rash
+Final Diagnosis: Coccidioidomycosis infection
+
+Chief Complaint: A 42-year-old male presented with painful, pruritic vesiculobullous rash on his bilateral forearms for 15 days.
+
+Hospital Course:
+
+The patient was admitted with a vesiculobullous rash on his bilateral forearms. The rash was red, raised, tense, and vesiculobullous, and tender. The patient complained of fever and cough. Biopsy of the left forearm lesion revealed granulomatous inflammatory cells in the dermis with minimal subepidermal edema. The laboratory examination revealed a high white blood cell count and high eosinophil count. 
+
+The coccidioidal serology showed reactive ID-IgM and ID-IgG with CF antibody titer less than 1:2. The chest X-ray showed right lower lobe infiltrate. The skin biopsy showed subepidermal vesicular dermatitis with neutrophils and histiocytes. The patient was diagnosed with coccidioidomycosis infection.
+
+Treatment:
+
+The patient was treated with antifungal medications. In the next 2 weeks, the rash resolved completely.
+
+Discharge Instructions:
+
+The patient was informed about the importance of following the prescribed antifungal medication regimen and following up with his healthcare provider to monitor treatment effectiveness. The patient was advised to avoid exposure to soil or dust in endemic regions. The patient was instructed to return to the hospital if his symptoms worsen or if new symptoms develop.
+
+Summary:
+
+The 42-year-old male patient was admitted with a vesiculobullous rash on his bilateral forearms. He was diagnosed with coccidioidomycosis infection and treated with antifungal medications. The patient's symptoms resolved completely in the next 2 weeks. The patient was advised to follow up with his healthcare provider for monitoring of treatment effectiveness and to avoid exposure to soil or dust in endemic regions.",What was the patient diagnosed with and what medication was used to treat it in the given discharge summary?,"The patient was diagnosed with coccidioidomycosis infection and was treated with antifungal medications as per the discharge summary instructions. However, no specific medication was mentioned in the discharge summary, so further information may be required to provide a more precise answer.",Question Answering,discharge summary, vesiculobullous rash,"{
+  ""conditions"": [
+    {
+      ""text"": ""Vesiculobullous rash"",
+      ""status"": ""resolved""
+    },
+    {
+      ""text"": ""Coccidioidomycosis infection"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""fever"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""cough"",
+      ""status"": ""active""
+    }
+  ],
+  ""medications"": [
+    {
+      ""text"": ""antifungal medications"",
+      ""dosage"": ""not specified""
+    }
+  ]
+}"
+2092,2208,"Discharge Summary
+
+Patient Name: [REDACTED]             Date of Admission: [REDACTED]            Date of Discharge: [REDACTED]
+
+Admitting Diagnosis: Dermatomyositis (DM)
+
+Hospital Course:
+The 39-year-old patient was admitted to the hospital with a history of DM and worsening proximal muscle weakness, rash, dysphagia, elevated CK, and elevated liver enzymes. The patient was treated with pulse steroids, IVIG, MMF, PDN, and rituximab infusions. Despite an increase in MMF dose, the patient showed little improvement. TAC 2mg/day was added to the existing regimen, and PDN was gradually tapered. Three months after TAC had been started, the patient was able to stand from a seated position with down trending CK, LDH, and ESR. Five months after TAC initiation, the patient showed significant clinical and laboratory improvements. Eleven months after TAC initiated, the patient was able to return to work.
+
+Hospital Course Summary:
+The patient was admitted with a diagnosis of DM. The patient was treated with pulse steroids, IVIG, MMF, PDN, and rituximab infusions. Despite an increase in MMF dose, the patient showed little improvement. TAC 2mg/day was added to the existing regimen, and PDN was gradually tapered. Three months after TAC had been started, the patient was able to stand from a seated position with down trending CK, LDH, and ESR. Five months after TAC initiation, the patient showed significant clinical and laboratory improvements. Eleven months after TAC initiated, the patient was able to return to work.
+
+Final Diagnosis: Dermatomyositis (DM)
+
+Disposition: Discharged
+
+Conditions on Discharge:
+The patient was discharged in stable condition with significant clinical and laboratory improvements after treatment with TAC. The patient was advised to continue treatment as prescribed by the medical team and to follow up as scheduled with the treating provider.
+
+Medications on Discharge:
+N/A
+
+Instructions on Discharge:
+The patient was advised to continue treatment as prescribed by the medical team and to follow up as scheduled with the treating provider.
+
+Follow-up Care:
+The patient was advised to follow up as scheduled with the treating provider and to seek medical attention if any new or concerning symptoms arise.
+
+Primary Care Provider:
+[REDACTED]","What treatments and changes in medication were utilized for a 39-year-old patient with Dermatomyositis who showed little improvement despite initial treatment with pulse steroids, IVIG, MMF, PDN, and rituximab infusions?","For a 39-year-old patient with Dermatomyositis who showed little improvement despite initial treatment with pulse steroids, IVIG, MMF, PDN, and rituximab infusions, TAC 2mg/day was added to the regimen and PDN was gradually tapered. Three months after TAC initiation, the patient was able to stand from a seated position with down trending CK, LDH, and ESR. Five months after TAC initiation, the patient showed significant clinical and laboratory improvements.",Question Answering,discharge summary, dermatomyositis (dm),"{
+  ""conditions"": [
+    {
+      ""text"": ""Dermatomyositis"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""proximal muscle weakness"",
+      ""status"": ""resolved""
+    },
+    {
+      ""text"": ""dysphagia"",
+      ""status"": ""resolved""
+    },
+    {
+      ""text"": ""elevated CK"",
+      ""status"": ""resolved""
+    },
+    {
+      ""text"": ""elevated liver enzymes"",
+      ""status"": ""resolved""
+    }
+  ],
+  ""medications"": [
+    {
+      ""text"": ""Tacrolimus (TAC)"",
+      ""dosage"": ""2mg/day""
+    },
+    {
+      ""text"": ""Mycophenolate mofetil (MMF)"",
+      ""dosage"": ""not specified""
+    },
+    {
+      ""text"": ""Prednisone (PDN)"",
+      ""dosage"": ""tapered dose""
+    },
+    {
+      ""text"": ""IVIG"",
+      ""dosage"": ""not specified""
+    },
+    {
+      ""text"": ""Rituximab"",
+      ""dosage"": ""not specified""
+    }
+  ]
+}"
+2874,3045,"Discharge Summary:
+
+Identification: The patient is a 34-year-old male from Gafargaon, Mymensingh.
+
+Reason for Admission: The patient was admitted with non-itching nodulo-macular skin lesions all over the body for 5 years, with a history of VL 8 years back. 
+
+Hospital Course: On examination, the patient was non-febrile, slightly anemic, and no hepato-splenomegaly was found. Laboratory investigations revealed he was positive for rK39, and LD-DNA was found by qPCR of skin biopsy. The patient was treated as a PKDL case with Cap. Miltefosine for 84 days. Three weeks later, the patient developed a painful, red eye with a watery discharge. He was advised to stop taking the medication and was given steroid eye drops. After a week, he recovered from his complications and was treated with multidose LAmB without further complication. On 6-month follow-up, his skin qPCR for LD-DNA was negative, and he had no similar ophthalmic complaint.
+
+Diagnosis: The patient was diagnosed with PKDL.
+
+Treatment: The patient was treated with Cap. Miltefosine and multidose LAmB.
+
+Condition at Discharge: Stable.
+
+Follow-up: The patient was advised to return if any new symptoms arise.","What was the medication regimen, and subsequent complications, for the patient's diagnosis of PKDL during the hospital course?","The patient was treated with Cap. Miltefosine for 84 days for PKDL and developed a painful, red eye with a watery discharge three weeks later. The medication was stopped, and the patient was given steroid eye drops. The patient was then treated with multidose LAmB without further complications.",Question Answering,discharge summary, the patient was diagnosed with pkdl.,"{
+  ""conditions"": [
+    {""text"": ""PKDL"", ""status"": ""resolved""},
+    {""text"": ""anemia"", ""status"": ""active""},
+    {""text"": ""eye inflammation"", ""status"": ""resolved""}
+  ],
+  ""medications"": [
+    {""text"": ""Miltefosine"", ""dosage"": ""84 days""},
+    {""text"": ""steroid eye drops"", ""dosage"": ""as needed""},
+    {""text"": ""LAmB"", ""dosage"": ""multidose""}
+  ]
+}"
+3655,3874,"Hospital Course Summary:
+
+Identification: A 4-year-old female patient with Jellyfish sting injury.
+
+Admission Date: [date]
+
+Discharge Date: [date]
+
+Admitting Diagnosis: Jellyfish sting injury
+
+Hospital Course:
+
+The patient was admitted to the hospital with severe pain caused by a jellyfish sting injury on the beach. The injury occurred in Hua Hin, Thailand, and the patient received a topical cream at a local hospital before her arrival. At the time of admission, there was reddish stinging marks on her leg accompanied by mild swelling.
+
+Treatment: 
+
+The patient was treated with Silvex® cream and prednisone for local and systemic therapy respectively, while under observation at the hospital. After five days following the initial treatment, the patient developed itching and perifocal redness, and additional antibiotic therapy with intravenous amoxicillin/clavulanic acid was initiated. 
+
+Outcome: 
+
+From day 14, the patient's condition deteriorated with deep, tunnel-like necrosis subsequently observed on the left leg. Despite different medical approaches, the necrosis increased. A radical debridement of the area was performed, and vacuum assisted wound therapy initiated. The wounds eventually healed except for a delayed deep necrosis that developed on the right popliteal region. This region was excised, vacuum assisted wound therapy initiated, and the defect was closed with a rotation flap-plasty.
+
+Follow-up Care: 
+
+The patient continued massage therapy and the use of compression stockings as prescribed before being discharged from the hospital. The last examination after skin grafting was performed approximately 8 weeks post the surgery and revealed satisfactory outcomes. 
+
+Follow-up Care Plan: 
+
+Follow-up care includes routine physical examinations, regular dressing changes on the right leg, and wound care and monitoring of the site for the first few weeks post-release. Pain management continues since some discomfort may be expected during the healing process. The patient's parents have been advised to minimize their daughter's exposure to jellyfish sightings when the family is out on vacation at the beach.","What was the initial treatment and subsequent medication administered for a 4-year-old female patient with a jellyfish sting injury, according to the discharge summary?","According to the discharge summary, the initial treatment for the jellyfish sting injury was Silvex® cream, and prednisone was administered for local and systemic therapy, respectively. However, after five days, the patient developed itching and perifocal redness, and additional antibiotic therapy with intravenous amoxicillin/clavulanic acid was initiated.",Question Answering,hospital course summary, jellyfish sting injury,"{
+  ""conditions"": [
+    {""text"": ""Jellyfish sting injury"", ""status"": ""active""},
+    {""text"": ""wound necrosis"", ""status"": ""resolved""},
+    {""text"": ""skin infection"", ""status"": ""resolved""}
+  ],
+  ""medications"": [
+    {""text"": ""Silvex cream"", ""dosage"": ""topical application""},
+    {""text"": ""prednisone"", ""dosage"": ""not specified""},
+    {""text"": ""amoxicillin/clavulanic acid"", ""dosage"": ""intravenous""},
+    {""text"": ""compression stockings"", ""dosage"": ""as prescribed""}
+  ]
+}"
+4131,4372,"Discharge Summary
+
+Patient Name: [REDACTED]
+DOB: [REDACTED]
+Medical Record Number: [REDACTED]
+Admission Date: [REDACTED]
+Discharge Date: [REDACTED]
+Discharge Diagnosis: Chlamydia trachomatis and Neisseria gonorrhoeae infection
+
+Hospital Course:
+Upon admission, the patient presented with redness, discharge, and reduced vision in the left eye, and bilateral worsening symptoms two days later. The patient had a history of schizophrenia and obsessive-compulsive disorder and multiple sexual partners, both male and female, without protection. The examination showed profuse mucopurulent discharge, lid swelling, and conjunctival injection. The patient was diagnosed with Chlamydia trachomatis infection and suspected co-infection with Neisseria gonorrhoeae. The patient was commenced on intravenous ceftriaxone, oral azithromycin 500mg once daily for five days, and topical levofloxacin preservative-free drops to both eyes hourly. 48 hours after commencing treatment, there were signs of clinical improvement. Visual acuity had risen to logMAR 0.50 in the left eye, unaided, and corneal thinning had stabilized, with re-epithelialization observed. The patient was referred to the genitourinary medicine team for a systemic test of cure and contact tracing.
+
+
+Hospital Course Summary:
+A 48-year-old bisexual gentleman presented to the eye clinic with redness, discharge, and reduced vision in the left eye, and bilateral worsening symptoms two days later. The examination showed profuse mucopurulent discharge, lid swelling, and conjunctival injection. The patient was diagnosed with Chlamydia trachomatis infection and suspected co-infection with Neisseria gonorrhoeae. The patient was commenced on intravenous ceftriaxone, oral azithromycin 500mg once daily for five days, and topical levofloxacin preservative-free drops to both eyes hourly. 48 hours after commencing treatment, there were signs of clinical improvement. Visual acuity had risen to logMAR 0.50 in the left eye, unaided, and corneal thinning had stabilized, with re-epithelialization observed. The patient was referred to the genitourinary medicine team for a systemic test of cure and contact tracing. The patient was discharged on [REDACTED].",What medications and treatment modalities were used to manage a patient with Chlamydia trachomatis and Neisseria gonorrhoeae infection with conjunctivitis and corneal thinning?,"The patient was treated with intravenous ceftriaxone, oral azithromycin 500mg once daily for five days, and topical levofloxacin preservative-free drops to both eyes hourly for the management of Chlamydia trachomatis and Neisseria gonorrhoeae infection with conjunctivitis and corneal thinning. There were signs of clinical improvement observed 48 hours after the commencement of treatment.  However, the information about the patient's long-term management or follow-up beyond the referral to the genitourinary medicine team for test of cure and contact tracing is not available in the given discharge summary.",Question Answering,discharge summary, chlamydia trachomatis and neisseria gonorrhoeae infection,"{
+  ""conditions"": [
+    {
+      ""text"": ""Chlamydia trachomatis infection"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""Neisseria gonorrhoeae infection"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""schizophrenia"",
+      ""status"": ""active""
+    },
+    {
+      ""text"": ""obsessive-compulsive disorder"",
+      ""status"": ""active""
+    }
+  ],
+  ""medications"": [
+    {
+      ""text"": ""ceftriaxone"",
+      ""dosage"": ""intravenous""
+    },
+    {
+      ""text"": ""azithromycin 500mg"",
+      ""dosage"": ""once daily for five days""
+    },
+    {
+      ""text"": ""levofloxacin preservative-free drops"",
+      ""dosage"": ""hourly""
+    }
+  ]
+}"
+7472,7884,"Discharge Summary:
+
+Admission Diagnosis: Altered Mental Status due to Organic Causes, Catatonic Excitement and Retardation, Substance Abuse
+
+Hospital Course:
+The patient, a 59-year-old African American male with a past medical history notable for schizoaffective disorder, depression, and substance abuse, presented to the emergency room with disorganized behavior and agitation. He displayed incoherent thought process in addition to mumbled speech, with tremors and restlessness. The patient's laboratory values were within normal limits except for ammonia level which was high. He was treated with Chlorpromazine Hcl and Naltrexone for his agitated behavior and opiate intoxication. His treatment was later revised to include Mirtazapine and Olanzapine. By day three of admission, the patient showed significant improvement in his behavior. He was discharged after completion of his treatment.
+
+Discharge Diagnosis:
+Altered Mental Status due to Organic Causes, Catatonic Excitement and Retardation, Substance Abuse, Schizoaffective Disorder
+
+Follow-up:
+The patient was advised to seek follow-up with his primary care provider and psychiatrist for continued care and medication management. Further imaging and laboratory work-up may be necessary to monitor his condition. The patient should also be counseled on substance abuse cessation and avoidance.
+
+Recommendations:
+1. Follow-up with Primary Care Physician
+2. Follow-up with Psychiatrist
+3. Continued medication management and monitoring
+4. Substance abuse cessation and avoidance
+
+Hospital Course Summary:
+The patient, a 59-year-old African American male with a history of schizoaffective disorder, depression, and substance abuse, was admitted to the hospital after presenting with disorganized behavior and agitation. He was treated with Chlorpromazine Hcl and Naltrexone for his agitated behavior and opiate intoxication. His treatment was later revised to include Mirtazapine and Olanzapine. The patient showed significant improvement in his disorganized behavior with supportive care and was discharged after completion of his treatment. He was advised to seek follow-up with his primary care provider and psychiatrist for continued care and medication management. Further imaging and laboratory work-up may be necessary to monitor his condition. The patient should also be counseled on substance abuse cessation and avoidance.","What medications were administered to treat the patient's altered mental status and substance abuse, and what adjustments were made to the treatment plan during hospitalization?",The patient was treated with Chlorpromazine Hcl and Naltrexone for his agitated behavior and opiate intoxication. His treatment was later revised to include Mirtazapine and Olanzapine.,Question Answering,discharge summary," altered mental status due to organic causes, catatonic excitement and retardation, substance abuse","{
+  ""conditions"": [
+    {""text"": ""Altered Mental Status due to Organic Causes"", ""status"": ""active""},
+    {""text"": ""Catatonic Excitement and Retardation"", ""status"": ""active""},
+    {""text"": ""Substance Abuse"", ""status"": ""active""},
+    {""text"": ""Schizoaffective Disorder"", ""status"": ""active""},
+    {""text"": ""Depression"", ""status"": ""active""}
+  ],
+  ""medications"": [
+    {""text"": ""Chlorpromazine Hcl"", ""dosage"": ""not specified""},
+    {""text"": ""Naltrexone"", ""dosage"": ""not specified""},
+    {""text"": ""Mirtazapine"", ""dosage"": ""not specified""},
+    {""text"": ""Olanzapine"", ""dosage"": ""not specified""}
+  ]
+}"
+8119,8572,"Discharge Summary
+
+Patient Name: [Name]
+
+Medical Record Number: [Number]
+
+Admission Date: [Date]
+
+Discharge Date: [Date]
+
+Facility: [Facility Name]
+
+Medical Diagnosis: Acute Transient Psychotic Disorder
+
+Medical History: The patient, a 25-year-old male labourer from Hyderabad, India, was admitted with complaints of abnormal behaviour, delusions, hallucinations, and aggression. No history of fever, fall, head trauma, or substance abuse was reported. On examination, patient's vitals and all systems were normal, although he appeared confused and hallucinating, talking to self. He was diagnosed with acute transient psychotic disorder according to the ICD 10 criteria.
+
+Hospital Course: The patient was given intramuscular haloperidol twice for two days, which proved effective in managing his symptoms, and was then switched to oral olanzapine. He responded well and was discharged after three days. He returned after fifteen days with complaints of abnormal behaviour, for which he was started on oral carbamazepine, which he has been maintained on for the last two years.
+
+Follow-up Care: The patient is advised to continue taking oral carbamazepine as prescribed. He is advised to follow a healthy lifestyle, including regular exercise, healthy diet, and stress management techniques. He is advised to attend regular follow-up appointments with his primary care physician for monitoring and management of his condition.
+
+Summary: The patient, a 25-year-old male labourer from Hyderabad, India, was admitted with complaints of acute transient psychotic disorder, which was effectively managed with intramuscular haloperidol and oral olanzapine. He was later maintained on oral carbamazepine, which has proved effective in controlling his symptoms with no relapse in the last two years. The patient is advised to continue taking oral carbamazepine and follow a healthy lifestyle.",What medication was the patient switched to after intramuscular haloperidol for the management of acute transient psychotic disorder?,The patient was switched to oral olanzapine after intramuscular haloperidol for the management of acute transient psychotic disorder.,Question Answering,discharge summary, acute transient psychotic disorder,"{
+  ""conditions"": [
+    {
+      ""text"": ""Acute Transient Psychotic Disorder"",
+      ""status"": ""active""
+    }
+  ],
+  ""medications"": [
+    {
+      ""text"": ""haloperidol intramuscular"",
+      ""dosage"": ""twice daily for two days""
+    },
+    {
+      ""text"": ""olanzapine oral"",
+      ""dosage"": ""not specified""
+    },
+    {
+      ""text"": ""carbamazepine oral"",
+      ""dosage"": ""not specified""
+    }
+  ]
+}"
+14189,14976,"Discharge Summary:
+
+Patient Name: Not provided
+DOB: Not provided
+Sex: Male
+Admit Date: Not provided
+Discharge Date: Not provided
+Admitting Diagnosis: Hematuria, anemia
+
+Hospital Course:
+The patient is a 90-year-old male who was admitted with complaints of intermittent hematuria. The patient had a history of hypertension, chronic kidney disease stage II, and hyperlipidemia. During the admission, the patient underwent a cystoscopy, which revealed a small clot in the urinary bladder. The patient later developed severe hematuria and bleeding from the right arm, leading to hemoglobin levels dropping to 7.0 and a prolonged aPTT of 44.8 seconds. Factor VIII and Factor IX assays showed low levels, with Factor VIII inhibitor levels of 12 BU/ml per Bethesda assay. The patient was transfused with two units of blood and started on corticosteroids, folic acid, and ferrous sulfate.
+
+The patient was then started on recombinant porcine factor VIII, and his hematuria and bleeding from the right arm subsided within 24 hours. A Factor VIII assay revealed a value of 258%. The patient was discharged to an inpatient rehabilitation unit but later developed a recurrence of hematuria, and the Factor VIII assay showed a value of 9%. The patient was readmitted and started on recombinant factor VIIa as a bypassing agent at 90 mcg/kg. Hemostasis was achieved at 24 hours, and the patient was discharged home with a follow-up appointment with Hematology as an outpatient.
+
+Follow-Up:
+The patient did not have any further recurrence of hematuria after 48 hours and remained stable. The patient was later readmitted with pneumonia after two months but did not have any bleeding event at that time. At a six-month follow-up, the patient had no more bleeding event and remained stable.",What medications and treatments were administered to the patient for the management of hematuria and bleeding events during the hospital course?,"During the hospital course, the patient was transfused with two units of blood and started on corticosteroids, folic acid, and ferrous sulfate. The patient was then started on recombinant porcine factor VIII, and his hematuria and bleeding from the right arm subsided within 24 hours. The patient was later started on recombinant factor VIIa as a bypassing agent at 90 mcg/kg and achieved hemostasis at 24 hours.",Question Answering,discharge summary," hematuria, anemia","{
+  ""conditions"": [
+    {""text"": ""hematuria"", ""status"": ""resolved""},
+    {""text"": ""anemia"", ""status"": ""resolved""},
+    {""text"": ""hypertension"", ""status"": ""active""},
+    {""text"": ""chronic kidney disease stage II"", ""status"": ""active""},
+    {""text"": ""hyperlipidemia"", ""status"": ""active""},
+    {""text"": ""Factor VIII deficiency"", ""status"": ""active""},
+    {""text"": ""pneumonia"", ""status"": ""resolved""}
+  ],
+  ""medications"": [
+    {""text"": ""corticosteroids"", ""dosage"": ""not specified""},
+    {""text"": ""folic acid"", ""dosage"": ""not specified""},
+    {""text"": ""ferrous sulfate"", ""dosage"": ""not specified""},
+    {""text"": ""recombinant porcine factor VIII"", ""dosage"": ""not specified""},
+    {""text"": ""recombinant factor VIIa"", ""dosage"": ""90 mcg/kg""}
+  ]
+}"
