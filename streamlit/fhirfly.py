@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 
-logo_path = "FHIRFly_logo.png" 
+logo_path = "streamlit/FHIRFly_logo.png" 
 
 st.logo(logo_path, size="small", link="https://fhirfly.streamlit.app/") 
 
