@@ -7,7 +7,7 @@ st.html("""
   <style>
     [alt=Logo] {
       padding-top: 1rem;
-      height: 4rem;
+      height: 5rem;
     }
   </style>
         """)
