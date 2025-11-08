@@ -3,6 +3,14 @@ import numpy as np
 
 logo_path = "streamlit/FHIRFly_logo.png" 
 
+st.html("""
+  <style>
+    [alt=Logo] {
+      height: 5rem;
+    }
+  </style>
+        """)
+
 st.logo(logo_path, size="large", link="https://fhirfly.streamlit.app/") 
 
 st.write("""
