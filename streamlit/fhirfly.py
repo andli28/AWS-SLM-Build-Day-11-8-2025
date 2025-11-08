@@ -1,6 +1,10 @@
 import streamlit as st
 import numpy as np
 
+logo_path = "FHIRFly_logo.png" 
+
+st.logo(image=logo_path, size="small", link="https://fhirfly.streamlit.app/") 
+
 st.write("""
 # Clinical Notes Summarizer - SLM Build Day
 Input a clinical or doctor's note to get a structured JSON summarization!
