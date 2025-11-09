@@ -17,6 +17,7 @@ st.logo(logo_path, size="large", link="https://fhirfly.streamlit.app/")
 st.write("""
 # FHIRFly
 Clinical Notes Summarizer - SLM Build Day
+
 Input a clinical or doctor's note to get a structured JSON summarization!
 """)
 
