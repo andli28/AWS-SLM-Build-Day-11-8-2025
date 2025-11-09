@@ -63,10 +63,10 @@ Clinical Notes Summarizer - SLM Build Day
 Input a clinical or doctor's note to get a structured JSON summarization!
 """)
 
-clincal_note = st.text_input("Enter your note:")
+clincal_note = st.text_area("Enter your note:")
 
 if clincal_note:
-    st.write(f"Original note:\n {clincal_note}")
+    st.write(f"Original note:\n\n {clincal_note}")
 
     with st.spinner('Analyzing note contents...'):
         tokenizer, model = load_model()
